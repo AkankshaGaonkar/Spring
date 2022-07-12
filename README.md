@@ -8,5 +8,5 @@ in intellij terminal
   
 Create Your files inside the folder, then
   - git add .
-  - git commit -m "I LOVE YOU ASHU"
+  - git commit -m "Message"
   - git push origin master

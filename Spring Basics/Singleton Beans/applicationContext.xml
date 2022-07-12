@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <bean id = "beanOne" class = "com.spring.HelloWorld">
+      <property name = "message" value = "Hello Akanksha"/>
+   </bean>
+
+</beans>
+
+<!-- applicationContext.xml is used to assign unique IDs to different beans and to control the creation of objects with different values without impacting any of the Spring source files. It acts like a cement between the two beans -->
